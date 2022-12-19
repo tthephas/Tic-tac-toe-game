@@ -1,0 +1,46 @@
+.container {
+  border: 1px solid black;
+  height: 430px;
+  width: 430px; 
+  padding: 7px;
+  margin: 50px 300px;
+}
+.gameBoard {
+  
+  border: 1px solid blue;
+  height: 115px;
+  width: 115px;
+  display: inline-block;
+  margin: 10px;
+  line-height: 125px;
+  font-size: 140px;
+  text-align: center;
+   
+}
+  
+button {
+  margin-left: 30%;
+  height: 45px;
+  width: 250px;
+  font-size: 25px;
+  background: green;
+  
+}
+button:hover {
+
+  background: yellow;
+  
+}
+.whoseTurn {
+  height: 20px;
+  width: 450px;
+  font-size: 40px;
+  display: block;
+  margin: 50px 320px;
+}
+
+
+
+  
+  
+  
