@@ -10,4 +10,16 @@ You can press the "Start new game" button to clear the board and start a new gam
 
 Building the game
 
+The first few steps to build the game, were getting a game space going and then inserting 9 boxes into that space. Using JS and iterating thru using a for loop, i was able to create 9 boxes, make them into their own div's, and then attaching/appending them to the overall div, which was the background box, the game board. These boxes then needed certain attributes. They first needed to be "clickable". Once they became clickable, i had to add many other functions to what the click would do. 
 
+Once a box was clicked, these things had to happen:
+1) Place an X or an O in the box according to whose turn it it
+2) Make the box "closed" or un-clickable moving forward
+3) Store the value of the square, the location, in an array for THAT player. This will be used later to check for win or tie
+4) Move the "turn" to the next player
+5) Change the banner to ask the other player to go
+
+The start button also needed some functionality. It has the ability to "clear the board" and start a game new, without a page refresh. It does this by wiping the content of each box, the text, and takign giving back the event listeners to each. it resets the text to let player X know they can go first again as well. It basically rebuilds the board from scratch without needing a code or page refresh. 
+
+This is a screenshot of the main page when the game begins.
+Screenshot 2022-12-20 at 3.03.14 PM.png
