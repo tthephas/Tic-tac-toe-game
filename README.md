@@ -22,4 +22,5 @@ Once a box was clicked, these things had to happen:
 The start button also needed some functionality. It has the ability to "clear the board" and start a game new, without a page refresh. It does this by wiping the content of each box, the text, and takign giving back the event listeners to each. it resets the text to let player X know they can go first again as well. It basically rebuilds the board from scratch without needing a code or page refresh. 
 
 This is a screenshot of the main page when the game begins.
-Screenshot 2022-12-20 at 3.03.14 PM.png
+
+
