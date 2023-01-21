@@ -1,12 +1,17 @@
+body {
+  background-color: lightgray;
+}
+
 .container {
   border: 1px solid black;
   height: 430px;
   width: 430px; 
   padding: 7px;
-  margin: 50px 300px;
+  margin: 50px 100px;
+  position: relative;
 }
 .gameBoard {
-  
+  background-color: whitesmoke;
   border: 1px solid blue;
   height: 115px;
   width: 115px;
@@ -15,11 +20,19 @@
   line-height: 125px;
   font-size: 140px;
   text-align: center;
+  
    
+}
+#wholeGame {
+  border: 2pt solid black;
+  width: 700px;
+  height: 700px;
+  margin: 10px 300px;
+  position: absolute;
 }
   
 button {
-  margin-left: 30%;
+  margin: 25px 200px;
   height: 45px;
   width: 250px;
   font-size: 25px;
@@ -36,7 +49,7 @@ button:hover {
   width: 450px;
   font-size: 40px;
   display: block;
-  margin: 50px 320px;
+  margin: 50px 200px;
 }
 
 
