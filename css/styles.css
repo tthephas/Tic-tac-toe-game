@@ -1,5 +1,5 @@
 body {
-  background-color: lightgray;
+  background-color: rgb(182, 181, 181);
 }
 
 .container {
@@ -29,6 +29,7 @@ body {
   height: 700px;
   margin: 10px 300px;
   position: absolute;
+  background-color: rgb(230, 226, 226);
 }
   
 button {
